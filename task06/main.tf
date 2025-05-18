@@ -18,6 +18,7 @@ module "sql" {
   sql_admin_secret_name     = var.sql_admin_secret_name
   sql_admin_secret_password = var.sql_admin_secret_password
   allowed_ip_address        = var.allowed_ip_address
+  sql_admin_username        = var.sql_admin_username
   tags                      = local.tags
 }
 
